@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Radioatividade</title>
+</head>
+<body>
+    <header>
+        <h1>Radioatividade</h1>
+    </header>
+    
+    <main>
+        <section class="cards">
+            <div class="card quiz-card">
+                <h2>Quiz sobre Radioatividade</h2>
+                <form id="quiz-form">
+                    <div class="question">
+                        <p>1. O que é radioatividade?</p>
+                        <label><input type="radio" name="q1" value="a"> Emissão de radiações ionizantes de núcleos atômicos.</label><br>
+                        <label><input type="radio" name="q1" value="b"> Um tipo de radiação solar.</label><br>
+                        <label><input type="radio" name="q1" value="c"> Uma forma de energia renovável.</label>
+                    </div>
+                    
+                    <div class="question">
+                        <p>2. Quais são os tipos de radiação?</p>
+                        <label><input type="radio" name="q2" value="a"> Alfa, beta e gama.</label><br>
+                        <label><input type="radio" name="q2" value="b"> UV, infravermelha e gama.</label><br>
+                        <label><input type="radio" name="q2" value="c"> Som, luz e calor.</label>
+                    </div>
+                    
+                    <div class="question">
+                        <p>3. Qual elemento foi isolado por Marie Curie?</p>
+                        <label><input type="radio" name="q3" value="a"> Urânio.</label><br>
+                        <label><input type="radio" name="q3" value="b"> Rádio.</label><br>
+                        <label><input type="radio" name="q3" value="c"> Hidrogênio.</label>
+                    </div>
+                    
+                    <div class="question">
+                        <p>4. A radiação alfa é composta por:</p>
+                        <label><input type="radio" name="q4" value="a"> Elétrons.</label><br>
+                        <label><input type="radio" name="q4" value="b"> Prótons e nêutrons.</label><br>
+                        <label><input type="radio" name="q4" value="c"> Neutros.</label>
+                    </div>
+                    
+                    <div class="question">
+                        <p>5. Quais são os efeitos da radiação?</p>
+                        <label><input type="radio" name="q5" value="a"> Apenas câncer.</label><br>
+                        <label><input type="radio" name="q5" value="b"> Náuseas, fadiga e riscos a longo prazo.</label><br>
+                        <label><input type="radio" name="q5" value="c"> Não há efeitos.</label>
+                    </div>
+
+                    <button type="submit">Enviar Respostas</button>
+                </form>
+                <div id="result"></div>
+                <div id="feedback"></div>
+            </div>
+
+            <div class="card">
+                <h3>O que é Radioatividade?</h3>
+                <p>A radioatividade é a propriedade de alguns núcleos atômicos de emitirem radiações ionizantes. Esses núcleos instáveis se desintegram, liberando energia na forma de radiação, que pode ser alfa, beta ou gama. Este fenômeno foi crucial para a compreensão da estrutura atômica e levou a importantes descobertas na física e na medicina.</p>
+            </div>
+            <div class="card">
+                <h3>Tipos de Radiação</h3>
+                <p>Os principais tipos de radiação são:
+                <ul>
+                    <li><strong>Radiação Alfa:</strong> Consiste em partículas que contêm dois prótons e dois nêutrons, semelhantes a um núcleo de hélio. É pouco penetrante e pode ser bloqueada por uma folha de papel ou pela pele humana.</li>
+                    <li><strong>Radiação Beta:</strong> Composta por elétrons (radiação beta negativa) ou pósitrons (radiação beta positiva). Tem maior poder de penetração do que a radiação alfa e pode ser detida por materiais como alumínio.</li>
+                    <li><strong>Radiação Gama:</strong> É uma forma de radiação eletromagnética de alta energia, semelhante à luz, mas com maior energia. A radiação gama é altamente penetrante e requer materiais densos, como chumbo ou concreto, para ser bloqueada.</li>
+                </ul>
+                </p>
+            </div>
+        </section>
+
+        <section class="info-section">
+            <h2>História da Radioatividade</h2>
+            <p>A radioatividade foi descoberta em 1896 por Henri Becquerel, enquanto estudava a fluorescência de sais de urânio. Marie Curie e seu marido, Pierre Curie, realizaram pesquisas fundamentais sobre a radioatividade, isolando elementos radioativos como o polônio e o rádio. Marie Curie foi a primeira mulher a receber um Prêmio Nobel e é conhecida por suas contribuições ao entendimento da radioatividade.</p>
+        </section>
+
+        <section class="info-section">
+            <h2>Efeitos da Radiação</h2>
+            <p>A exposição à radiação pode causar diversos efeitos. Imediatamente, a exposição a altas doses pode causar sintomas como náuseas e fadiga. A exposição a longo prazo é mais preocupante, pois pode aumentar o risco de câncer, provocar mutações genéticas e causar danos aos órgãos. Por isso, é essencial seguir normas de segurança ao lidar com materiais radioativos.</p>
+        </section>
+
+        <section class="info-section">
+            <h2>Mitos Comuns sobre Radioatividade</h2>
+            <p>Alguns mitos incluem:
+                <ul>
+                    <li><strong>Todo tipo de radiação é perigosa:</strong> Embora algumas radiações sejam perigosas em altas doses, a radiação está presente em nosso ambiente natural e, em doses baixas, pode ser inofensiva.</li>
+                    <li><strong>Radiação só vem de reatores nucleares:</strong> Muitas fontes de radiação são naturais, como o radônio que se acumula em casas, e a radiação cósmica que recebemos da atmosfera.</li>
+                    <li><strong>Radiografias são perigosas:</strong> As doses de radiação em radiografias são extremamente baixas e consideradas seguras para uso médico.</li>
+                </ul>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Radioatividade. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="java.js"></script>
+</body>
+</html>
